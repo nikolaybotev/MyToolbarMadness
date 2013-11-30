@@ -1,6 +1,6 @@
 //
-//  MyNewspeakTests.m
-//  MyNewspeakTests
+//  MyToolbarMadnessTests.m
+//  MyToolbarMadnessTests
 //
 //  Created by Nikolay Botev on 11/28/13.
 //  Copyright (c) 2013 Nikolay Botev. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface MyNewspeakTests : XCTestCase
+@interface MyToolbarMadnessTests : XCTestCase
 
 @end
 
-@implementation MyNewspeakTests
+@implementation MyToolbarMadnessTests
 
 - (void)setUp
 {

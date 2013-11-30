@@ -17,7 +17,7 @@
 		F60CD86A18485D4B00D26C45 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60CD86918485D4B00D26C45 /* XCTest.framework */; };
 		F60CD86B18485D4B00D26C45 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60CD84A18485D4B00D26C45 /* Cocoa.framework */; };
 		F60CD87318485D4B00D26C45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F60CD87118485D4B00D26C45 /* InfoPlist.strings */; };
-		F60CD87518485D4B00D26C45 /* MyNewspeakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F60CD87418485D4B00D26C45 /* MyNewspeakTests.m */; };
+		F60CD87518485D4B00D26C45 /* MyToolbarMadnessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F60CD87418485D4B00D26C45 /* MyToolbarMadnessTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,30 +26,30 @@
 			containerPortal = F60CD83F18485D4B00D26C45 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F60CD84618485D4B00D26C45;
-			remoteInfo = MyNewspeak;
+			remoteInfo = MyToolbarMadness;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F60CD84718485D4B00D26C45 /* MyNewspeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNewspeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60CD84718485D4B00D26C45 /* MyToolbarMadness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToolbarMadness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60CD84A18485D4B00D26C45 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F60CD84D18485D4B00D26C45 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F60CD84E18485D4B00D26C45 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F60CD84F18485D4B00D26C45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F60CD85218485D4B00D26C45 /* MyNewspeak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyNewspeak-Info.plist"; sourceTree = "<group>"; };
+		F60CD85218485D4B00D26C45 /* MyToolbarMadness-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyToolbarMadness-Info.plist"; sourceTree = "<group>"; };
 		F60CD85418485D4B00D26C45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F60CD85618485D4B00D26C45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F60CD85818485D4B00D26C45 /* MyNewspeak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyNewspeak-Prefix.pch"; sourceTree = "<group>"; };
+		F60CD85818485D4B00D26C45 /* MyToolbarMadness-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyToolbarMadness-Prefix.pch"; sourceTree = "<group>"; };
 		F60CD85A18485D4B00D26C45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		F60CD85C18485D4B00D26C45 /* NSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSAppDelegate.h; sourceTree = "<group>"; };
 		F60CD85D18485D4B00D26C45 /* NSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSAppDelegate.m; sourceTree = "<group>"; };
 		F60CD86018485D4B00D26C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F60CD86218485D4B00D26C45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F60CD86818485D4B00D26C45 /* MyNewspeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNewspeakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60CD86818485D4B00D26C45 /* MyToolbarMadnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyToolbarMadnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60CD86918485D4B00D26C45 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F60CD87018485D4B00D26C45 /* MyNewspeakTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyNewspeakTests-Info.plist"; sourceTree = "<group>"; };
+		F60CD87018485D4B00D26C45 /* MyToolbarMadnessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyToolbarMadnessTests-Info.plist"; sourceTree = "<group>"; };
 		F60CD87218485D4B00D26C45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F60CD87418485D4B00D26C45 /* MyNewspeakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNewspeakTests.m; sourceTree = "<group>"; };
+		F60CD87418485D4B00D26C45 /* MyToolbarMadnessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyToolbarMadnessTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 		F60CD83E18485D4B00D26C45 = {
 			isa = PBXGroup;
 			children = (
-				F60CD85018485D4B00D26C45 /* MyNewspeak */,
-				F60CD86E18485D4B00D26C45 /* MyNewspeakTests */,
+				F60CD85018485D4B00D26C45 /* MyToolbarMadness */,
+				F60CD86E18485D4B00D26C45 /* MyToolbarMadnessTests */,
 				F60CD84918485D4B00D26C45 /* Frameworks */,
 				F60CD84818485D4B00D26C45 /* Products */,
 			);
@@ -86,8 +86,8 @@
 		F60CD84818485D4B00D26C45 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F60CD84718485D4B00D26C45 /* MyNewspeak.app */,
-				F60CD86818485D4B00D26C45 /* MyNewspeakTests.xctest */,
+				F60CD84718485D4B00D26C45 /* MyToolbarMadness.app */,
+				F60CD86818485D4B00D26C45 /* MyToolbarMadnessTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,7 +112,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		F60CD85018485D4B00D26C45 /* MyNewspeak */ = {
+		F60CD85018485D4B00D26C45 /* MyToolbarMadness */ = {
 			isa = PBXGroup;
 			children = (
 				F60CD85C18485D4B00D26C45 /* NSAppDelegate.h */,
@@ -121,34 +121,36 @@
 				F60CD86218485D4B00D26C45 /* Images.xcassets */,
 				F60CD85118485D4B00D26C45 /* Supporting Files */,
 			);
-			path = MyNewspeak;
+			name = MyToolbarMadness;
+			path = MyToolbarMadness;
 			sourceTree = "<group>";
 		};
 		F60CD85118485D4B00D26C45 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F60CD85218485D4B00D26C45 /* MyNewspeak-Info.plist */,
+				F60CD85218485D4B00D26C45 /* MyToolbarMadness-Info.plist */,
 				F60CD85318485D4B00D26C45 /* InfoPlist.strings */,
 				F60CD85618485D4B00D26C45 /* main.m */,
-				F60CD85818485D4B00D26C45 /* MyNewspeak-Prefix.pch */,
+				F60CD85818485D4B00D26C45 /* MyToolbarMadness-Prefix.pch */,
 				F60CD85918485D4B00D26C45 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F60CD86E18485D4B00D26C45 /* MyNewspeakTests */ = {
+		F60CD86E18485D4B00D26C45 /* MyToolbarMadnessTests */ = {
 			isa = PBXGroup;
 			children = (
-				F60CD87418485D4B00D26C45 /* MyNewspeakTests.m */,
+				F60CD87418485D4B00D26C45 /* MyToolbarMadnessTests.m */,
 				F60CD86F18485D4B00D26C45 /* Supporting Files */,
 			);
-			path = MyNewspeakTests;
+			name = MyToolbarMadnessTests;
+			path = MyToolbarMadnessTests;
 			sourceTree = "<group>";
 		};
 		F60CD86F18485D4B00D26C45 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F60CD87018485D4B00D26C45 /* MyNewspeakTests-Info.plist */,
+				F60CD87018485D4B00D26C45 /* MyToolbarMadnessTests-Info.plist */,
 				F60CD87118485D4B00D26C45 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -157,9 +159,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F60CD84618485D4B00D26C45 /* MyNewspeak */ = {
+		F60CD84618485D4B00D26C45 /* MyToolbarMadness */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F60CD87818485D4B00D26C45 /* Build configuration list for PBXNativeTarget "MyNewspeak" */;
+			buildConfigurationList = F60CD87818485D4B00D26C45 /* Build configuration list for PBXNativeTarget "MyToolbarMadness" */;
 			buildPhases = (
 				F60CD84318485D4B00D26C45 /* Sources */,
 				F60CD84418485D4B00D26C45 /* Frameworks */,
@@ -169,14 +171,14 @@
 			);
 			dependencies = (
 			);
-			name = MyNewspeak;
-			productName = MyNewspeak;
-			productReference = F60CD84718485D4B00D26C45 /* MyNewspeak.app */;
+			name = MyToolbarMadness;
+			productName = MyToolbarMadness;
+			productReference = F60CD84718485D4B00D26C45 /* MyToolbarMadness.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F60CD86718485D4B00D26C45 /* MyNewspeakTests */ = {
+		F60CD86718485D4B00D26C45 /* MyToolbarMadnessTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F60CD87B18485D4B00D26C45 /* Build configuration list for PBXNativeTarget "MyNewspeakTests" */;
+			buildConfigurationList = F60CD87B18485D4B00D26C45 /* Build configuration list for PBXNativeTarget "MyToolbarMadnessTests" */;
 			buildPhases = (
 				F60CD86418485D4B00D26C45 /* Sources */,
 				F60CD86518485D4B00D26C45 /* Frameworks */,
@@ -187,9 +189,9 @@
 			dependencies = (
 				F60CD86D18485D4B00D26C45 /* PBXTargetDependency */,
 			);
-			name = MyNewspeakTests;
-			productName = MyNewspeakTests;
-			productReference = F60CD86818485D4B00D26C45 /* MyNewspeakTests.xctest */;
+			name = MyToolbarMadnessTests;
+			productName = MyToolbarMadnessTests;
+			productReference = F60CD86818485D4B00D26C45 /* MyToolbarMadnessTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F60CD84218485D4B00D26C45 /* Build configuration list for PBXProject "MyNewspeak" */;
+			buildConfigurationList = F60CD84218485D4B00D26C45 /* Build configuration list for PBXProject "MyToolbarMadness" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,8 +222,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F60CD84618485D4B00D26C45 /* MyNewspeak */,
-				F60CD86718485D4B00D26C45 /* MyNewspeakTests */,
+				F60CD84618485D4B00D26C45 /* MyToolbarMadness */,
+				F60CD86718485D4B00D26C45 /* MyToolbarMadnessTests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F60CD87518485D4B00D26C45 /* MyNewspeakTests.m in Sources */,
+				F60CD87518485D4B00D26C45 /* MyToolbarMadnessTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +273,7 @@
 /* Begin PBXTargetDependency section */
 		F60CD86D18485D4B00D26C45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F60CD84618485D4B00D26C45 /* MyNewspeak */;
+			target = F60CD84618485D4B00D26C45 /* MyToolbarMadness */;
 			targetProxy = F60CD86C18485D4B00D26C45 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -386,9 +388,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyNewspeak/MyNewspeak-Prefix.pch";
-				INFOPLIST_FILE = "MyNewspeak/MyNewspeak-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MyToolbarMadness/MyToolbarMadness-Prefix.pch";
+				INFOPLIST_FILE = "MyToolbarMadness/MyToolbarMadness-Info.plist";
+				PRODUCT_NAME = MyToolbarMadness;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -399,9 +401,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyNewspeak/MyNewspeak-Prefix.pch";
-				INFOPLIST_FILE = "MyNewspeak/MyNewspeak-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MyToolbarMadness/MyToolbarMadness-Prefix.pch";
+				INFOPLIST_FILE = "MyToolbarMadness/MyToolbarMadness-Info.plist";
+				PRODUCT_NAME = MyToolbarMadness;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -409,20 +411,20 @@
 		F60CD87C18485D4B00D26C45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyNewspeak.app/Contents/MacOS/MyNewspeak";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyToolbarMadness.app/Contents/MacOS/MyToolbarMadness";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyNewspeak/MyNewspeak-Prefix.pch";
+				GCC_PREFIX_HEADER = "MyToolbarMadness/MyToolbarMadness-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "MyNewspeakTests/MyNewspeakTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "MyToolbarMadnessTests/MyToolbarMadnessTests-Info.plist";
+				PRODUCT_NAME = MyToolbarMadnessTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -431,16 +433,16 @@
 		F60CD87D18485D4B00D26C45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyNewspeak.app/Contents/MacOS/MyNewspeak";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MyToolbarMadness.app/Contents/MacOS/MyToolbarMadness";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MyNewspeak/MyNewspeak-Prefix.pch";
-				INFOPLIST_FILE = "MyNewspeakTests/MyNewspeakTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "MyToolbarMadness/MyToolbarMadness-Prefix.pch";
+				INFOPLIST_FILE = "MyToolbarMadnessTests/MyToolbarMadnessTests-Info.plist";
+				PRODUCT_NAME = MyToolbarMadnessTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -449,7 +451,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F60CD84218485D4B00D26C45 /* Build configuration list for PBXProject "MyNewspeak" */ = {
+		F60CD84218485D4B00D26C45 /* Build configuration list for PBXProject "MyToolbarMadness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F60CD87618485D4B00D26C45 /* Debug */,
@@ -458,21 +460,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F60CD87818485D4B00D26C45 /* Build configuration list for PBXNativeTarget "MyNewspeak" */ = {
+		F60CD87818485D4B00D26C45 /* Build configuration list for PBXNativeTarget "MyToolbarMadness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F60CD87918485D4B00D26C45 /* Debug */,
 				F60CD87A18485D4B00D26C45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F60CD87B18485D4B00D26C45 /* Build configuration list for PBXNativeTarget "MyNewspeakTests" */ = {
+		F60CD87B18485D4B00D26C45 /* Build configuration list for PBXNativeTarget "MyToolbarMadnessTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F60CD87C18485D4B00D26C45 /* Debug */,
 				F60CD87D18485D4B00D26C45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
