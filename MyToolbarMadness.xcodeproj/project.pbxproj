@@ -14,7 +14,6 @@
 		F60CD85E18485D4B00D26C45 /* NSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F60CD85D18485D4B00D26C45 /* NSAppDelegate.m */; };
 		F60CD86118485D4B00D26C45 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F60CD85F18485D4B00D26C45 /* MainMenu.xib */; };
 		F60CD86318485D4B00D26C45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60CD86218485D4B00D26C45 /* Images.xcassets */; };
-		F60CD86A18485D4B00D26C45 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60CD86918485D4B00D26C45 /* XCTest.framework */; };
 		F60CD86B18485D4B00D26C45 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F60CD84A18485D4B00D26C45 /* Cocoa.framework */; };
 		F60CD87318485D4B00D26C45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F60CD87118485D4B00D26C45 /* InfoPlist.strings */; };
 		F60CD87518485D4B00D26C45 /* MyToolbarMadnessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F60CD87418485D4B00D26C45 /* MyToolbarMadnessTests.m */; };
@@ -46,7 +45,6 @@
 		F60CD86018485D4B00D26C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F60CD86218485D4B00D26C45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F60CD86818485D4B00D26C45 /* MyToolbarMadnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyToolbarMadnessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F60CD86918485D4B00D26C45 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F60CD87018485D4B00D26C45 /* MyToolbarMadnessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyToolbarMadnessTests-Info.plist"; sourceTree = "<group>"; };
 		F60CD87218485D4B00D26C45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F60CD87418485D4B00D26C45 /* MyToolbarMadnessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyToolbarMadnessTests.m; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F60CD86B18485D4B00D26C45 /* Cocoa.framework in Frameworks */,
-				F60CD86A18485D4B00D26C45 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				F60CD84A18485D4B00D26C45 /* Cocoa.framework */,
-				F60CD86918485D4B00D26C45 /* XCTest.framework */,
 				F60CD84C18485D4B00D26C45 /* Other Frameworks */,
 			);
 			name = Frameworks;
@@ -121,7 +117,6 @@
 				F60CD86218485D4B00D26C45 /* Images.xcassets */,
 				F60CD85118485D4B00D26C45 /* Supporting Files */,
 			);
-			name = MyToolbarMadness;
 			path = MyToolbarMadness;
 			sourceTree = "<group>";
 		};
@@ -143,7 +138,6 @@
 				F60CD87418485D4B00D26C45 /* MyToolbarMadnessTests.m */,
 				F60CD86F18485D4B00D26C45 /* Supporting Files */,
 			);
-			name = MyToolbarMadnessTests;
 			path = MyToolbarMadnessTests;
 			sourceTree = "<group>";
 		};
@@ -201,7 +195,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = NS;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Nikolay Botev";
 				TargetAttributes = {
 					F60CD86718485D4B00D26C45 = {
@@ -330,6 +324,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -390,6 +385,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyToolbarMadness/MyToolbarMadness-Prefix.pch";
 				INFOPLIST_FILE = "MyToolbarMadness/MyToolbarMadness-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.bonovox.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MyToolbarMadness;
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyToolbarMadness/MyToolbarMadness-Prefix.pch";
 				INFOPLIST_FILE = "MyToolbarMadness/MyToolbarMadness-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.bonovox.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MyToolbarMadness;
 				WRAPPER_EXTENSION = app;
 			};
@@ -424,6 +421,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "MyToolbarMadnessTests/MyToolbarMadnessTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.bonovox.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MyToolbarMadnessTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -442,6 +440,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyToolbarMadness/MyToolbarMadness-Prefix.pch";
 				INFOPLIST_FILE = "MyToolbarMadnessTests/MyToolbarMadnessTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "be.bonovox.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = MyToolbarMadnessTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
