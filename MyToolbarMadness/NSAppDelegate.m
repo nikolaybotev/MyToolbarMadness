@@ -8,14 +8,6 @@
 
 #import "NSAppDelegate.h"
 
-@interface NSToolbarFullScreenWindowManager @end
-@implementation NSToolbarFullScreenWindowManager(CoolOverride)
-- (void)updateContentViewWithEffectiveReveal:(double)arg1 auxMinHeight:(double)arg2 auxMaxHeight:(double)arg3
-{
-    printf("progress: %f\n", arg1);
-}
-@end
-
 @implementation NSAppDelegate
 
 - (BOOL)respondsToSelector:(SEL)aSelector {
@@ -23,7 +15,8 @@
     return [super respondsToSelector:aSelector];
 }
 
-- (NSApplicationPresentationOptions)window:(NSWindow *)window willUseFullScreenPresentationOptions:(NSApplicationPresentationOptions)proposedOptions {
+- (NSApplicationPresentationOptions)window:(NSWindow *)window
+      willUseFullScreenPresentationOptions:(NSApplicationPresentationOptions)proposedOptions {
     return proposedOptions;// | NSApplicationPresentationAutoHideToolbar;
 }
 
